@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  width: 100%;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.page_header {
+  margin: 25px 50px;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nav_list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  padding-right: 175px;
+}
+
+.nav_list_link {
+  color: #3D3D3D;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nav_list_link:hover {
+  text-decoration: underline;
+}
+
+.logo {
+   margin-right: 350px;
+}
+
+.nav_button {
+  width: 216px;
+  height: 41px;
+  background: #FFFFFF;
+  border: 1px solid #666666;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #3D3D3D;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.save_nature {
+  width: 100%;
+  height: 696px;
+  background: url(../images/header/save_nature.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.save_nature_title {
+  font-size: 100px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding-left: 25px;
+}
+
+.container_save_nature {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.save_nature_text {
+  color: #FFFFFF;
+  width: 378px;
+  height: 46px;
+  font-size: 20px;
+  font-weight: 275;
+}
+
+.button_block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.save_nature_button {
+  width: 140px;
+  height: 140px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  color: #BF632F;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.outside_button {
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.first_page_section {
+  margin: 100px 50px;
+}
+
+.our_mission {
+  display: flex;
+  padding-bottom: 75px;
+}
+
+.our_mission_list {
+  list-style: none;
+  padding-left: 80px;
+}
+
+.our_mission_title {
+  color: #3E3E3E;
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.our_mission_info {
+  color: #3E3E3E;
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.our_mission_button {
+  color: #171717;
+  font-size: 30px;
+  font-weight: 300;
+  background: #BC5E28;
+  border: none;
+  border-radius: 50px;
+  width: 625px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.statistic {
+  text-align: center;
+}
+
+.column_statistics {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.statistic_title {
+  color: #3E3E3E;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.statistic_text {
+  color: #3E3E3E;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.second_page_section {
+  margin: 25px 50px;
+  display: flex;
+}
+
+.images_blocks {
+  margin-right: 50px;
+}
+
+.first_image_block {
+  margin-bottom: 75px;
+  margin-right: 200px;
+}
+
+.second_image_block {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about_work {
+  margin-right: 10px;
+}
+
+.about_work_title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #3E3E3E;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.about_work_text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #3E3E3E;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.about_work_list {
+  list-style: none;
+}
+
+.about_work_info {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #3E3E3E;
+  cursor: pointer;
+}
+
+.about_work_info:after {
+  content: "→";
+  float: right;
+}
+
+.page_footer {
+  margin: 75px 50px 50px 50px;
+}
+
+.important_help {
+  width: 100%;
+  height: 639px;
+  background: url(../images/footer/important_help.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.important_help_title {
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.important_help_text {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  width: 890px;
+  height: 110px;
+  padding-bottom: 10px;
+}
+
+.important_help_button {
+  width: 402px;
+  height: 35px;
+  background: none;
+  border: 1px solid #E7C9BF;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.four_lists {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 75px;
+}
+
+.links_list {
+  list-style: none;
+}
+
+.first_line {
+  margin-bottom: 10px;
+  color: #3E3E3E;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.list_link {
+  margin-bottom: 10px;
+  display: block;
+  color: #3E3E3E;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.list_link:hover {
+  text-decoration: underline;
+}
+
+.news_list {
+  list-style: none;
+}
+
+.input_email {
+  width: 230px;
+  border: none;
+  border-bottom: 1px solid #979797;
+}
+
+.input_checkbox {
+  width: 7px;
+  height: 7px;
+  border: 0.2px solid #666666;
+  margin-right: 3px;
+}
+
+.checkbox_text {
+  color: #979797;
+  font-size: 7px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+  margin-bottom: 60px;
+}
+
+.contacts_list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.contact_vk_button {
+  width: 65px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #979797;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact_telegram_button {
+  width: 120px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #979797;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.end_footer_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  list-style: none;
+  width: 100%;
+}
+
+.footer_logo_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_logo {
+  background: url(../images/footer/copyright.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.footer_company_name {
+  color: #000000;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.about_company {
+  color: #979797;
+  font-size: 12px;
+  font-weight: 300;
+  width: 380px;
+  height: 30px;
+}
+
+.about_site {
+  color: #979797;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.copyright_text {
+  color: #979797;
+  font-size: 12px;
+  font-weight: 300;
+}
